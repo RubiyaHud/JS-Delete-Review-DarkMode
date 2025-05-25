@@ -7,3 +7,4 @@ console.log(headings.innerHTML) //it is 'undefined'
 console.log(headings[1].innerHTML)
 ```
 #### Output:
+![image](https://github.com/user-attachments/assets/fa32ef65-7926-40e7-ac20-d29416bcd6b3)
