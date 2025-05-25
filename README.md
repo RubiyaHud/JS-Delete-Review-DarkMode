@@ -25,7 +25,7 @@ console.log(heading3.innerHTML)
 
 ### `addEventListener`
 "A way to attach a tiny helper to an element that patiently waits for something to happen—like a `click`, `hover`, or `keypress`—and then jumps into action exactly when needed."
-#### Common Events `addEventListener` Can Handle:
+#### ()[https://github.com/RubiyaHud/JS-Delete-Review-DarkMode/blob/main/addEventListnerEvents.png] Common Events `addEventListener` Can Handle:
 - click — When the user clicks on an element
 - dblclick — When the user double-clicks
 - mouseover — When the mouse pointer moves over an element
@@ -43,14 +43,3 @@ console.log(heading3.innerHTML)
 - touchend — When a finger leaves the screen (mobile)
 - change — When an input or select value changes
   
-
-
-
-
-
-
-
-
-
-
-- 
