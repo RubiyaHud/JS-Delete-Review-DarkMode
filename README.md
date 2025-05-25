@@ -8,3 +8,6 @@ console.log(headings[1].innerHTML)
 ```
 #### Output:
 ![image](https://github.com/user-attachments/assets/fa32ef65-7926-40e7-ac20-d29416bcd6b3)
+
+### `HTMLCollection`
+An `array-like`, live collection of DOM elements. It is returned by methods like `getElementsByTagName()` or `getElementsByClassName()`. Unlike a true array, it does not have all array methods (like map() or forEach()), but we can access elements by index or name.
