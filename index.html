@@ -1,17 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Event </title>
 </head>
-<body>
-    <h1> Rubiya </h1>
-    <h1> Yasmin </h1>
-    <h1> Reba </h1>
 
-    <h3> FDR 2408 </h3>
+<body>
+    <div style="text-align: center; margin-bottom: 10px;">
+
+        <h1> Rubiya </h1>
+        <h1> Yasmin </h1>
+        <h1> Reba </h1>
+
+        <h3> FDR 2408 </h3>
+    </div>
+
+    <!-- Dark/Light Mode using .addEventListener() -->
+    <div style="text-align: center; margin-bottom:30px;">
+        <h1> Dark/Light Mode using .addEventListener() </h1>
+        <button id="darkBtn"> Dark </button>
+        <button id="lightBtn"> Light </button>
+    </div>
+
+    <!-- Dark/Light Mode using OnClick -->
+    <div style="text-align: center; padding:10px; margin-bottom:20px;">
+        <h1> Dark/Light Mode using onclick </h1>
+        <button onclick="document.body.style.background = 'black'"> Dark </button>
+        <button onclick="document.body.style.background = 'white'"> Light </button>
+    </div>
+
+    <!-- Dark/Light Mode using OnClick and JS function -->
+    <div style="text-align:center; margin-bottom:20px;">
+        <h1> Dark/Light Mode using onclick with JS function </h1>
+        <button onclick="bgDark()"> Dark </button>
+        <button onclick="bgLight()"> Light </button>
+    </div>
+
+    <!-- Hidden/Show -->
+    <div style="text-align:center; margin-bottom:20px;">
+        <h1 id="hideShowText1" hidden> Yasmin </h1>
+        <h1 id="hideShowText2"> Rubiya </h1>
+        <button id="hideShowBtn"> Hide/Show </button>
+    </div>
+
+    <!-- Review  -->
+    <div style="text-align:center; margin-bottom:20px;">
+        <div id="reviewContainer"></div>
+        <textarea id="reviewInput" cols="50" rows="10" placeholder="Write Your Review"></textarea>
+        <br>
+        <button id="reviewBtn">Submit Review</button>
+    </div>
+
+    <!-- Delete  -->
+    <div style="text-align: center; margin-bottom: 50px;">
+        <h1 id="delText"> Delete Me! </h1>
+        <input id="delInput" type="text" placeholder="Type 'DELETE to delete'" />
+        <button id="delBtn" disabled> Delete </button>
+    </div>
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
