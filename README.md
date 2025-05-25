@@ -11,3 +11,14 @@ console.log(headings[1].innerHTML)
 
 ### `HTMLCollection`
 An `array-like`, live collection of DOM elements. It is returned by methods like `getElementsByTagName()` or `getElementsByClassName()`. Unlike a true array, it does not have all array methods (like map() or forEach()), but we can access elements by index or name.
+
+### `querySelector`
+"A smart tool that finds the first HTML element that matches a CSS selector — like asking the page, ‘Who’s the first one wearing this style?’"
+#### Example:
+```
+let heading3 = document.querySelector("h3")
+console.log(heading3)
+console.log(heading3.innerHTML)
+```
+#### Output:
+![image](https://github.com/user-attachments/assets/72a13d83-16fd-4b36-bcf6-9c0dfc43a97b)
