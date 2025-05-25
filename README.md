@@ -26,3 +26,31 @@ console.log(heading3.innerHTML)
 ### `addEventListener`
 "A way to attach a tiny helper to an element that patiently waits for something to happen—like a `click`, `hover`, or `keypress`—and then jumps into action exactly when needed."
 #### Common Events `addEventListener` Can Handle:
+- click — When the user clicks on an element
+- dblclick — When the user double-clicks
+- mouseover — When the mouse pointer moves over an element
+- mouseout — When the mouse pointer leaves an element
+- keydown — When a key is pressed down
+- keyup — When a key is released
+- input — When the value of an input or textarea changes
+- submit — When a form is submitted
+- load — When a resource or the page finishes loading
+- scroll — When the user scrolls an element or page
+- resize — When the browser window changes size
+- focus — When an element gains focus
+- blur — When an element loses focus
+- touchstart — When a finger touches the screen (mobile)
+- touchend — When a finger leaves the screen (mobile)
+- change — When an input or select value changes
+  
+
+
+
+
+
+
+
+
+
+
+- 
