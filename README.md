@@ -22,3 +22,7 @@ console.log(heading3.innerHTML)
 ```
 #### Output:
 ![image](https://github.com/user-attachments/assets/72a13d83-16fd-4b36-bcf6-9c0dfc43a97b)
+
+### `addEventListener`
+"A way to attach a tiny helper to an element that patiently waits for something to happen—like a `click`, `hover`, or `keypress`—and then jumps into action exactly when needed."
+#### Common Events `addEventListener` Can Handle:
